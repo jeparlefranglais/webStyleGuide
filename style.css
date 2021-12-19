@@ -1,10 +1,167 @@
 html {
     box-sizing: border-box;
+    font-family: roboto, Helvetica, sans-serif;
     
 }
 
-#colors {
+section {
     border: 1px black solid;
+    padding: 20px;
+    margin-bottom: 30px;
 
 }
+.container {
+    width: 25%;
+    margin: 10px 5px;
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+}
+#snow {
+    background-color: snow;
+    color: darkslategray;
+}
 
+#white {
+    background-color: #FFFFFF;
+    color: darkslategray;  
+}
+#lavender {
+    background-color: #D2C4D6;
+    color: darkslategray;
+}
+#floralWhite {
+    background-color: floralwhite;
+    color: darkslategray;
+}
+#indigo {
+    background-color: #240952;
+    color: white;
+}
+#DuskyPink {
+     background-color: #D193A3;
+     color: white;
+}
+
+
+
+.licorice {
+    display: inline-block;
+    font-family: Licorice, cursive;
+    margin: 20px;
+}
+
+.licorice h3 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.licorice h4 {
+    font-size: 30px;
+}
+
+.LoveLight {
+    display: inline-block;
+    font-family: 'Love Light', cursive;
+    margin: 20px;
+    font-weight: 100;
+}
+
+.LoveLight h3 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+.LoveLight h4 {
+    font-size: 30px;
+}
+
+.Sacramento {
+    display: inline-block;
+    font-family: 'Sacramento', cursive;
+    margin: 20px;
+    font-weight: 100;
+}
+
+.Sacramento h3 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+.Sacramento h4 {
+    font-size: 30px;
+}
+
+.ClickerScript {
+    display: inline-block;
+    font-family: 'Clicker Script', cursive;
+    margin: 20px;
+    font-weight: 100;
+}
+
+.ClickerScript h3 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+.ClickerScript h4 {
+    font-size: 30px;
+}
+
+.raleway {
+    display: block;
+    font-family: raleway, arial, sans-serif;
+    margin: 20px;
+    width: 50%;
+}
+.raleway h3 {
+    text-decoration: underline;
+}
+.raleway #thin {
+    font-weight: 100;
+}
+
+.raleway #regular {
+    font-weight: 400;
+}
+.raleway #italic {
+    font-weight: 400;
+    font-style: italic;
+}
+.raleway #bold {
+    font-weight: 700; 
+}
+.roboto {
+    display: inline-block;
+    font-family: roboto, arial, sans-serif;
+    margin: 20px;
+}
+.roboto h3 {
+    text-decoration: underline;
+}
+.roboto #thin {
+    font-weight: 100;
+}
+.roboto #thinItalic {
+    font-weight: 100;
+    font-style: italic;
+}
+.roboto #regular {
+    font-weight: 400;
+}
+.roboto #regularItalic {
+    font-weight: 400;
+    font-style: italic;
+}
+.roboto #bold {
+    font-weight: 700;
+}
+
+#textStyle h1 {
+    font-weight: 100;
+    font-size: 30px;
+}
+#textStyle .subheading{
+    font-weight: 100;
+    font-size: 20px;
+}
+#textStyle p {
+    font-size: 16px;
+}
